@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Simo Droussi - Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </head>
+
+<head>
+  <title>Simo Droussi - Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
 <body>
 
-<!-- NAVIGATION -->
+  <!-- NAVIGATION -->
   <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="" alt="logo"></a>
@@ -32,124 +34,121 @@
     </div>
   </nav>
 
-<!-- Image Slider -->
+  <!-- Image Slider -->
 
-<div id="slides" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#slides" data-slide-to="0" class="active"></li>
-    <li data-target="#slides" data-slide-to="1"></li>
-    <li data-target="#slides" data-slide-to="2"></li>
-  </ul>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/dev.jpeg" alt="image1">
-      <div class="carousel-caption">
-        <h1 class="display-2">Hi,</h1>
-        <h3>my name is Mohamed Droussi</h3>
-        <h4>aka Simo</h4>
-        <h5>and I am a Web Developper</h5>
-        <button type="button" class="btn btn-primary btn-lg">Say Hello!</button>
+  <div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/dev.jpeg" alt="image1">
+        <div class="carousel-caption">
+          <h1 class="display-2">Hello,</h1>
+          <h3>my name is Mohamed Droussi</h3>
+          <h3>aka Simo</h3>
+          <h3>and I am a Web Developper</h3>
+          <button id="carousel-btn" type="button" class="btn btn-primary btn-lg">Say Hi!</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/startup.jpg" alt="image2">
+      </div>
+      <div class="carousel-item">
+        <img src="images/travel.jpeg" alt="image3">
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="images/startup.jpg" alt="image2">
-    </div>
-    <div class="carousel-item">
-      <img src="images/travel.jpeg" alt="image3">
+  </div>
+
+  <!-- Jumbotron -->
+
+  <div class="container-fluid">
+    <div class="row jumbotron">
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <p class="lead">
+          I am bla bla bla bla bla bla bla bla bla bla bla bal bal bal bla bli bli bli bli bli bli bli bli blu blu blu blu blu
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+        <button type="button" class="btn btn-outline-secondary">SOME BUTTON May be</button>
+      </div>
     </div>
   </div>
-</div>
 
-<!-- Jumbotron -->
+  <!-- Welcome Section -->
 
-<div class="container-fluid">
-  <div class="row jumbotron">
-    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-      <p class="lead">
-        I am bla bla bla bla bla bla bla bla bla bla bla bal bal bal bla
-        bli bli bli bli bli bli bli bli
-        blu blu blu blu blu
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-      <button type="button" class="btn btn-outline-secondary">SOME BUTTON May be</button>
-    </div>
-  </div>
-</div>
-
-<!-- Welcome Section -->
-
-<div class="container-fluid padding">
-  <div class="row welcome text-center">
-    <div class="col-12">
-      <h1 class="display-4">What I Do.</h1>
-      <hr/>
-    </div>
-    <div class="col-12">
-      <p class="lead">a list of skills I am versed at</p>
-    </div>
-  </div>
-</div>
-
-<!-- Three Column Section -->
-
-<div class="container-fluid padding">
-  <div class="row text-center padding">
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <i class="fas fa-code"></i>
-      <h3>HTML5</h3>
-      <p>some text about my html skills</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <i class="fab fa-css3"></i>
-      <h3>CSS3</h3>
-      <p>some text about my css skills</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <i class="fas fa-bold"></i>
-      <h3>BOOTSTRAP</h3>
-      <p>some text about my bootstrap skills</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <i class="fab fa-js-square"></i>
-      <h3>JAVASCRIPT</h3>
-      <p>some text about my JS skills</p>
-    </div>
-  </div>
-<hr cass="my-4">
-</div>
-
-<!-- Fixed Image Background -->
-<figure>
-  <div class="fixed-wrap">
-    <div id="fixed"></div>
-  </div>
-</figure>
-<!-- Hidden Fun -->
-<button class="fun" data-toggle="collapse" data-target="#emoji">Click to See Something Fun!</button>
-<!-- add a fun JS app later here -->
-<div id="emoji" class="collapse">
   <div class="container-fluid padding">
-    <div class="row text-center">
-      <div class="col-sm-6 col-md-4">
-        <img class="gif" src="images/panda.gif">
+    <div class="row text-center welcome">
+      <div class="col-12">
+        <h1 class="display-4">What I Do.</h1>
+        <hr/>
       </div>
-      <div class="col-sm-6 col-md-4">
-        <img class="gif" src="images/chicken.gif">
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <img class="gif" src="images/unicorn.gif">
+      <div class="col-12">
+        <p class="lead">a list of skills I am versed at</p>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Projects -->
+  <!-- Three Column Section -->
 
-<div class="container-fluid padding">
-  <div class="row welcome text-center">
-    <div class="col-12">
-      <h1 class="display-4">What I Did.<h1>
+  <div class="container-fluid padding">
+    <div class="row text-center padding">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <i class="fas fa-code"></i>
+        <h3>HTML5</h3>
+        <p>some text about my html skills</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <i class="fab fa-css3"></i>
+        <h3>CSS3</h3>
+        <p>some text about my css skills</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <i class="fas fa-bold"></i>
+        <h3>BOOTSTRAP</h3>
+        <p>some text about my bootstrap skills</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <i class="fab fa-js-square"></i>
+        <h3>JAVASCRIPT</h3>
+        <p>some text about my JS skills</p>
+      </div>
+    </div>
+  </div>
+  <hr class="myhr">
+  <!-- Fixed Image Background -->
+  <!-- <figure>
+    <div class="fixed-wrap">
+      <div id="fixed"></div>
+    </div>
+  </figure> -->
+  <!-- Hidden Fun -->
+  <button class="fun" data-toggle="collapse" data-target="#emoji">Click to See Something Fun!</button>
+  <!-- add a fun JS app later here -->
+  <div id="emoji" class="collapse">
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-4">
+          <img class="gif" src="images/panda.gif">
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img class="gif" src="images/chicken.gif">
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img class="gif" src="images/unicorn.gif">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects -->
+
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 class="display-4">What I Did.<h1>
       <hr>
     </div>
   </div>
@@ -159,6 +158,7 @@
 
 <div class="container-fluid padding">
   <div class="row padding">
+    <div class="card-deck">
     <div class="col-md-4">
       <div class="card">
         <img class="card-img-top" src="images/form.png">
@@ -189,8 +189,54 @@
         </div>
       </div>
     </div>
+    </div>
   </div>
 </div>
+
+<!-- Javascript Projects -->
+
+      <!-- add javascript in its own section -->
+
+<!-- Connect -->
+
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+    <div class="col-12">
+      <h2>Connect</h2>
+    </div>
+    <div class="col-12 social padding">
+      <a href="http://linkedin.com/in/mohdroussi" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  		<a href="http://twitter.com/DroussiSimo" target="_blank"><i class="fab fa-twitter"></i></a>
+  		<a href="http://github.com/simodroussi" target="_blank"><i class="fab fa-github"></i></a>
+  		<a href="http://freecodecamp.org/simodroussi" target="_blank"><i class="fab fa-free-code-camp"></i></a>
+      </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+
+<div class="container-fluid padding">
+  <div class="row text-center">
+    <div class="col-md-6">
+      <img src="" alt="Logo" />
+    </div>
+    <div class="col-md-6">
+      <hr class="light">
+      <h5>Simo Droussi</h5>
+      <hr class="light">
+      <p>+358 40 169 5020</p>
+      <p>mohamed.droussi@gmail.com</p>
+      <p>Hämeenlina, Finland</p>
+    </div>
+    <div class="col-md-12">
+      <hr class="light-100">
+      &copy; <a href="www.simodroussi.gq">simodroussi.gq</a>
+    </div>
+  </div>
+</div>
+</footer>
+
 
 </body>
 </html>
