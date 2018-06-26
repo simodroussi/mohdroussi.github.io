@@ -1,4 +1,4 @@
-@@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 html, body {
   height: 100%;
   width: auto;
@@ -114,7 +114,7 @@ html, body {
 
 .card img {
   height: 239px;
-  width: 200;
+  width: auto;
 }
 
 .social a {

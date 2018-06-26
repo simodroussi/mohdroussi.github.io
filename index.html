@@ -18,7 +18,8 @@
   <!-- NAVIGATION -->
   <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="" alt="logo"></a>
+      <!-- <a class="navbar-brand" href="index.html"><img src="" alt="logo"></a> -->
+      <h3>Simo Droussi</h3>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -68,11 +69,13 @@
     <div class="row jumbotron">
       <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
         <p class="lead">
-          I am bla bla bla bla bla bla bla bla bla bla bla bal bal bal bla bli bli bli bli bli bli bli bli blu blu blu blu blu
+          I am an enthusiastic and motivated learner with a passion for innovation and new technologies. I am seeking to apply skills and ideas to contribute to the growth of products and companies. I believe technology will completely permeate every aspect of
+          our lives soon escpecially with the recent advancements in AI. I also believe that it is technology that is going to help us change the world for the better. That being said, the challenge is: How do we optimize and coordinate between all these
+          emerging innovations to do just that?
         </p>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-        <button type="button" class="btn btn-outline-secondary">SOME BUTTON May be</button>
+        <button id="noclick" onclick="changeText()" type="button" class="btn btn-outline-danger">DO NOT CLICK!</button>
       </div>
     </div>
   </div>
@@ -86,7 +89,7 @@
         <hr/>
       </div>
       <div class="col-12">
-        <p class="lead">a list of skills I am versed at</p>
+        <p class="lead">I am good at these technologies and more.</p>
       </div>
     </div>
   </div>
@@ -98,22 +101,22 @@
       <div class="col-xs-12 col-sm-6 col-md-3">
         <i class="fas fa-code"></i>
         <h3>HTML5</h3>
-        <p>some text about my html skills</p>
+        <p>Static pages are a piece of cake</p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
         <i class="fab fa-css3"></i>
         <h3>CSS3</h3>
-        <p>some text about my css skills</p>
+        <p>Animations are still a bit trick but I got the layout and styling down.</p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
         <i class="fas fa-bold"></i>
         <h3>BOOTSTRAP</h3>
-        <p>some text about my bootstrap skills</p>
+        <p>This responsive website is built entirely in Bootstrap. Check it out on your phone. </p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
         <i class="fab fa-js-square"></i>
         <h3>JAVASCRIPT</h3>
-        <p>some text about my JS skills</p>
+        <p>First I hated it then I loved it. It is my favorite programming language.</p>
       </div>
     </div>
   </div>
@@ -158,14 +161,13 @@
 
 <div class="container-fluid padding">
   <div class="row padding">
-    <div class="card-deck">
     <div class="col-md-4">
       <div class="card">
         <img class="card-img-top" src="images/form.png">
         <div class="card-body">
           <h4 class="card-title">Survey Form</h4>
           <p class="card-text">Survey Form made with HTML/CSS</p>
-          <a href="#" class="btn btn-outline-secondary">See it</a>
+          <a href="https://codepen.io/simodroussi/full/PaGOyo" target="_blank" class="btn btn-outline-secondary">See it</a>
         </div>
       </div>
     </div>
@@ -174,8 +176,8 @@
         <img class="card-img-top" src="images/tribute.png">
         <div class="card-body">
           <h4 class="card-title">Tribute Page</h4>
-          <p class="card-text">Tribute page made with HTML/CSS</p>
-          <a href="#" class="btn btn-outline-secondary">See it</a>
+          <p class="card-text">This was my first encounter with Bootstrap. I had no idea what I was doing.</p>
+          <a href="https://codepen.io/simodroussi/full/ZoNmyv" target="_blank" class="btn btn-outline-secondary">See it</a>
         </div>
       </div>
     </div>
@@ -183,12 +185,31 @@
       <div class="card">
         <img class="card-img-top" src="images/PLP.png">
         <div class="card-body">
-          <h4 class="card-title">Landing Page </h4>
-          <p class="card-text">Product landing page made with HTML/CSS</p>
-          <a href="#" class="btn btn-outline-secondary">See it</a>
+          <h4 class="card-title">Landing Page</h4>
+          <p class="card-text">The style is ugly but the navigation bar is responsive. It also does a little animation.</p>
+          <a href="https://codepen.io/simodroussi/full/mKBgMm" target="_blank" class="btn btn-outline-secondary">See it</a>
         </div>
       </div>
     </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="" alt="technical_documentation">
+        <div class="card-body">
+          <h4 class="card-title">Technical Documentation</h4>
+          <p class="card-text">Sample structure of a technical documentation with no styling</p>
+          <a href="" target="_blank" class="btn btn-outline-secondary">See it</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="#" alt="basic_prtfolio">
+        <div class="card-body">
+          <h4 class="card-title">Basic Portfolio</h4>
+          <p class="card-text">The precursor to this one.</p>
+          <a href="" target="_blank" class="btn btn-outline-secondary">See it</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -219,7 +240,10 @@
 <div class="container-fluid padding">
   <div class="row text-center">
     <div class="col-md-6">
-      <img src="" alt="Logo" />
+      <br><br>
+      <h5>Do you like coffee? &#x2615;</h5>
+      <h5>GREAT! Me Too!</h5>
+      <h5>Drop me a message then!</h5>
     </div>
     <div class="col-md-6">
       <hr class="light">
@@ -237,6 +261,6 @@
 </div>
 </footer>
 
-
+<script src="JS/app.js"></script>
 </body>
 </html>
